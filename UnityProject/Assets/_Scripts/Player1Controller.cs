@@ -7,6 +7,8 @@ public class Player1Controller : MonoBehaviour {
 	public float cameraSpeed;
 	public Camera cam;
 	public GameObject rohr;
+	public GameObject mündung;
+	public GameObject schuss;
 
 	private Rigidbody rb;
 
@@ -33,5 +35,12 @@ public class Player1Controller : MonoBehaviour {
 		cam.transform.Translate(0.0f, 2.5f, -3.0f, Space.Self);
 		//Rohr ausrichen, höhöhöh
 		rohr.transform.Rotate(0.0f, cRotY, 0.0f, Space.Self);
+		//Schiesen
+		/*
+		if(Input.GetButton("Fire1")){
+			Instantiate (schuss, mündung.transform.position, mündung.transform.rotation);
+		}
+		*/
 	}
+
 }

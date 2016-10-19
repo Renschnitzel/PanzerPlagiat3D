@@ -45,7 +45,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SchussSpawner.cs" />
      <Compile Include="Assets\_Scripts\Player1Controller.cs" />
+     <Compile Include="Assets\_Scripts\ProjektilController.cs" />
      <Compile Include="Assets\_Scripts\TestScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
