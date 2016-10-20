@@ -1,0 +1,33 @@
+Spieler 
+	-Steuerung
+	-Umsehen + Zielen
+	-Waffe 1 + Alternativ Waffen
+	-Input Feedback
+Multyplayer
+	-Player 2 + zweiter Controller
+	-Splitscreen
+	-Interaktion zwischen Spieler
+Gegner
+	-Panzer
+	-Soldaten
+	-Basen
+	-Zerstörbare Umgebung
+KI
+	-Simple KI
+	-Advanced KI
+GUI
+	-Startmenü
+	-Lebensenergie
+	-Munition für alternativ Waffe
+	-Punkteanzeige
+	-Highscores
+Terrain
+	-Hügel + Berge
+	-Bäume und Wände
+	-Gebäude
+Optinal
+	-Shader
+	-Idle Animation
+	-Animation
+
+	
