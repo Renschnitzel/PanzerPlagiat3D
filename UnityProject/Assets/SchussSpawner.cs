@@ -7,6 +7,7 @@ public class SchussSpawner : MonoBehaviour {
 
 	private float time;
 	private float nextShot;
+	private GameObject instance;
 	// Use this for initialization
 	void Start () {
 	
@@ -20,8 +21,8 @@ public class SchussSpawner : MonoBehaviour {
 			nextShot = nextShot - time;
 			time = 0.0f;
 
-			Instantiate (schuss, transform.position, transform.rotation);
-		
+			instance = (GameObject)Instantiate (schuss, transform.position, transform.rotation);
+			Destroy (instance, 10.0f);
 		}
 	}
 }
