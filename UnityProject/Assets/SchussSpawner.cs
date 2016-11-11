@@ -22,7 +22,6 @@ public class SchussSpawner : MonoBehaviour {
 			time = 0.0f;
 
 			instance = (GameObject)Instantiate (schuss, transform.position, transform.rotation);
-			Destroy (instance, 10.0f);
 		}
 	}
 }
